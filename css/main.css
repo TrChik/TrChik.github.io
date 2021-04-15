@@ -1,15 +1,35 @@
 .header-support {
     display: flex;
     flex-wrap: nowrap;
-    border: 1px solid green;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
-.header-support > div {
-    border: 1px solid red;
-    flex-grow: 1000px;
-    
+.h1-text-holder {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5vw;
 }
 
-.internal-div {
-    border: 1px solid red;
+.center-children > h2, div, img {
+    margin: auto;
+}
+
+.header-support > h2 {
+    margin: auto;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9vw;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.highlighter {
+    margin: auto;
+    margin-left: 3%;
 }
