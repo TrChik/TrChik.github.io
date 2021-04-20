@@ -17,6 +17,10 @@
     margin: auto;
 }
 
+.children-align-top > h2, div, img {
+    margin-top: 0%;
+}
+
 .header-support > h2 {
     margin: auto;
     font-family: Rubik;
@@ -27,6 +31,10 @@
 
 .full-width {
     width: 100%;
+}
+
+.full-height {
+    height: 100%;
 }
 
 .highlighter {
@@ -69,4 +77,62 @@
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.rectangle_a {
+    background-color: black;
+    width: 30vw;
+    height: 1vw;
+}
+
+.round-corners {
+    border-radius: 10px;
+}
+
+.btn-round-corners {
+    border-radius: 5vw;
+}
+
+.h2-block-headline-text {
+    margin-top: 5%;
+    font-size: 4vw;
+}
+
+.h2-block-content-text {
+    font-size: 3vw;
+}
+
+.browse-button {
+    background: none;
+    border: 0.3vw solid black;
+    box-shadow: none;
+    font-size: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.footer-support {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+.div-rubik-font-contents > h2, h1, p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.div-footer-support > h2, h1, p {
+    color: white;
+}
+
+.adjust-images-a > img {
+    margin-top: 2vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    width: 6vw;
+    height: 6vw;
 }
