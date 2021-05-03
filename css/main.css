@@ -169,8 +169,36 @@
 }
 
 .burger-menu {
-    background-color: green;
+    background-color: black;
+    text-align: center;
 }
+
+.h2-menu-text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.6vw;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: auto;
+}
+
+.adjust-icon-a {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.adjust-icon-a > a { 
+    font-size: 2.8vw;
+}
+
+.style-adjust-a > div {
+    
+}
+
+
 
 @media only screen and (max-width:680px) {
     .image-logo-adjuster {
@@ -188,6 +216,5 @@
 
     .desktop-hide {
         display: block;
-        
     }
 }
