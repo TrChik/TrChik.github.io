@@ -1,3 +1,14 @@
+html, body {
+    min-height: 100% !important;
+    height: 100% !important;
+    margin: 0;
+}
+
+body {
+    display: inline-block;
+    flex-flow: column;
+}
+
 .header-support {
     display: flex;
     flex-wrap: nowrap;
@@ -144,6 +155,9 @@
     display: flex;
     flex-wrap: nowrap;
     background-color: black;
+    height: 10vw;
+    bottom: 0;
+    width: 100%;
 }
 
 .div-rubik-font-contents > h2, h1, p, a {
@@ -241,6 +255,11 @@
     color: black;
 }
 
+.style-adjust-b {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex: 1 1 auto;
+}
 @media only screen and (max-width:680px) {
     .image-logo-adjuster {
         margin-left: auto;
@@ -265,5 +284,21 @@
 
     .style-adjust-a > div {
         display: block;
+    }
+
+    .style-adjust-b {
+        flex-flow: column; 
+    }
+
+    .style-adjust-b > div {
+        margin-top: 5vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .footer-support {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 }
