@@ -168,15 +168,18 @@
     display: none;
 }
 
-.burger-menu {
-    display: flex;
-    background-color: black;
-    text-align: center;
-    margin-top: 1%;
-    height: 7vw;
+.desktop-hide-flex {
+    display: none;
 }
 
-.h2-menu-text {
+.burger-menu {
+    background-color: black;
+    text-align: center;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.burger-menu > div > h2 {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -188,20 +191,55 @@
     margin-right: auto;
 }
 
+.burger-menu > div > a {
+    color: white;
+}
+
+.burger-menu:hover {
+    background-color: #3d3d3d; 
+    cursor: pointer;
+}
+
 .adjust-icon-a {
     display: flex;
     flex-wrap: nowrap;
+    margin: 0px auto;
 }
 
 .adjust-icon-a > a { 
     font-size: 2.8vw;
 }
 
-.style-adjust-a > div {
-    
+.style-adjust-a {
+    display: none;
 }
 
+.style-adjust-a > div {
+    display: none;
+    background-color: black;
+    text-align: center;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
 
+.style-adjust-a > div > h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.3vw;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.style-adjust-a > div:hover {
+    background-color:darkgray;
+    cursor: pointer;
+}
+
+.style-adjust-a > div:hover > h2 {
+    color: black;
+}
 
 @media only screen and (max-width:680px) {
     .image-logo-adjuster {
@@ -218,6 +256,14 @@
     }
 
     .desktop-hide {
+        display: block;
+    }
+
+    .desktop-hide-flex {
+        display: flex;
+    }
+
+    .style-adjust-a > div {
         display: block;
     }
 }

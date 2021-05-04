@@ -7,7 +7,7 @@
  <link rel="stylesheet" href="css/main.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="icon" type="image/png" sizes="192x192" href="logo-transparent.png">
- <script src="main.js"></script>
+ <script src="scripts/main.js"></script>
 
  <title>frog</title>
 
@@ -17,7 +17,7 @@
  </head>
 
 <body class="full-height full-height" style="margin: 0px;">
-	<header class="header-adjust" style="margin-top: 1vw;">
+	<header class="header-adjust" style="margin-top: 1vw; margin-bottom: 1vw;">
 		<div class="header-support">
 			<img src="logo.png" alt="Main logo" class="image-logo-adjuster">
 			<div class="highlighter">
@@ -25,10 +25,10 @@
 			</div>
 		</div>
 	</header>
-	<div class="desktop-hide burger-menu">
+	<div class="desktop-hide-flex burger-menu center-children" onclick="menuswitch()">
 		<div class="adjust-icon-a">
-			<a href="#" style="margin-right: 0%; margin-left: auto;"><i class="fa fa-bars"></i></a>
-			<h2 class="h2-menu-text">Menu</h2>
+			<a href="#" style="margin-right: 5%; margin-left: auto;"><i class="fa fa-bars"></i></a>
+			<h2>Menu</h2>
 		</div>
 	</div>
 	<div class="header-support center-children header-link-support" style="margin-top: 2%; margin-bottom: 2%;">
@@ -37,11 +37,11 @@
 		<a href="contact.html">Contact</a>
 		<a href="aboutus.html">About us</a>
 	</div>
-	<div class="style-adjust-a">
-		<div><a href="index.html">Home</a></div>
-		<div><a href="catalog.html">Catalog</a></div>
-		<div><a href="contact.html">Contact</a></div>
-		<div><a href="aboutus.html">About us</a></div>
+	<div class="style-adjust-a" id="navmenu">
+		<div onclick="window.location='index.html';"><h2>Home</h2></div>
+		<div onclick="window.location='catalog.html';"><h2>Catalog</h2></div>
+		<div onclick="window.location='contact.html';"><h2>Contact</h2></div>
+		<div onclick="window.location='aboutus.html';"><h2>About us</h2></div>
 	</div>
 	<div class="picture-display">
 		<img src="pic.png" alt="Welcome pic" class="picture-container">

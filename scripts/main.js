@@ -1,5 +1,5 @@
-function display_switcher(class_name) {
-  var x = document.getElementById(class_name);
+function menuswitch() {
+  var x = document.getElementById("navmenu");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
