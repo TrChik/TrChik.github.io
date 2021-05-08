@@ -1,0 +1,16 @@
+.local-style-adjust-a { 
+    margin-left: 10%;
+}
+
+.local-style-adjust-a > h2 {
+    font-size: 2vw;
+}
+
+.local-style-adjust-a > h3 {
+    font-size: 1.2vw;
+    margin-left: 2.5vw;
+}
+
+.local-font-a > h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}

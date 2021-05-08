@@ -260,6 +260,17 @@ body {
     margin-bottom: 5%;
     flex: 1 1 auto;
 }
+
+.footer-support-always-fixed {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    height: 10vw;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
 @media only screen and (max-width:680px) {
     .image-logo-adjuster {
         margin-left: auto;
