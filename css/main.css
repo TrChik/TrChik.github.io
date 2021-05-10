@@ -170,7 +170,7 @@ body {
     color: white;
 }
 
-.adjust-images-a > img {
+.adjust-images-a > a > img {
     margin-top: 2vw;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
