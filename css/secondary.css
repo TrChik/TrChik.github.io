@@ -22,3 +22,14 @@
     color: palevioletred;
     background-color: white;
 }
+
+.link-highlight {
+    color: blueviolet;
+    background-color: white;
+}
+
+.link-highlight:hover {
+    color: darkviolet;
+    text-decoration: underline;
+    cursor: pointer;
+}
