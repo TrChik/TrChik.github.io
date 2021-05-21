@@ -191,6 +191,8 @@ body {
     text-align: center;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .burger-menu > div > h2 {
